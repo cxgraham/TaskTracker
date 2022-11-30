@@ -64,7 +64,7 @@ def filter_tasks_by_priority(request):
         'first_name': this_user.first_name,
         'filtered_tasks': this_user.tasks.all().order_by('priority'),
     }
-    return render(request, 'filtered_tasks.html',  context)
+    return render(request, 'filtered_homepage.html',  context)
 
 
 # UPDATING

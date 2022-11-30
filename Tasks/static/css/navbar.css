@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #ADEFD1FF;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #00203FFF;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.nav-buttons{
+    align-items: center;
+}
+
+#button1{
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    border: 2px solid #00203FFF;
+}
+
+#button1:hover{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
