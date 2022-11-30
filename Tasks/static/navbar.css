@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav a:hover{
+    text-decoration: underline;
+}

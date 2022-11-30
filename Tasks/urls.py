@@ -10,5 +10,5 @@ urlpatterns = [
     path('new_task', views.new_task, name = 'new_task'),
     path('tasks/edit/<int:id>', views.edit_task, name = 'edit_task'),
     path('tasks/delete/<int:id>', views.delete_task),
-    path('filtered_tasks',  views.filter_tasks_by_priority, name = 'filtered_tasks')
+    path('homepage/filter/by_priority',  views.filter_tasks_by_priority, name = 'filtered_tasks')
 ]
