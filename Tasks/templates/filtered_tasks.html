@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Tasks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    {% include 'navbar.html' %}
+</head>
+<body>
+    <div class="main-content">
+        <div class="main-header">
+            <div class="welcome">
+                <h1>Welcome, {{first_name}}!</h1>
+            </div>
+            <div class="filter">
+                <button onclick="myFunction()" class="dropbtn">Filter</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="{% url 'filtered_tasks' %}">By Priority</a>
+                    <a href="{% url 'homepage' %}">By Date Created</a>
+                </div>
+            </div>
+        </div>
+        <div class="tasks">
+            {% for task in filtered_tasks %}
+                <div class="task">
+                    <h3>{{task.title}}</h3>
+                    {% if task.priority == 1 %}
+                        <h5>Priority: High</h5>
+                    {% elif task.priority == 2 %}
+                        <h5>Priority: Medium</h5>
+                    {% else %}
+                        <h5>Priority: Low</h5>
+                    {% endif %}
+                    <p>{{task.description}}</p>
+                    <div class="task_buttons">
+                        <a href="/tasks/edit/{{task.id}}">Edit</a>
+                        <a href="/tasks/delete/{{task.id}}">Delete</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
