@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-content{
+    height: 100vh;
+    background-color: #00203FFF;
+    padding: 10%;
+}
+
+.edit_task_form{
+    margin: 0px auto;
+    width: 80%;
+    background-color: #ADEFD1FF;
+    padding: 20px;
+    color: #00203FFF;
+    border-radius: 5px;
+}
+
+.edit_task_form h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttonHolder{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttonHolder button{
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    border: 2px solid #00203FFF;
+}
+
+.buttonHolder button:hover{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border-color: #ADEFD1FF;
+}
