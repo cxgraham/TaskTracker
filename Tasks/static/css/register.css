@@ -21,6 +21,10 @@
     box-shadow: 4px 4px #56988a;
 }
 
+.messages li{
+    color: #ADEFD1FF;
+}
+
 .register-form h1{
     text-align: center;
     color: #ADEFD1FF;

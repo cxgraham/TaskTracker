@@ -6,15 +6,16 @@
 
 .main-content{
     background-color: #00203FFF;
-    height: 100vh;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    max-height: auto;
 }
 
 .main-header{
     margin: 0px auto;
-    padding: 20px 0px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    width: 75%;
     align-items: center;
 }
 
@@ -24,11 +25,11 @@
 
 .main-buttons{
     display: flex;
-    width: 15%;
     justify-content: space-between;
 }
 
 .new-task{
+    margin-right: 10px;
     padding: 5px;
     display: flex;
     background-color: #00203FFF;
@@ -82,6 +83,7 @@
     z-index: 1;
     border-radius: 5px;
     border: 2px solid #ADEFD1FF;
+    right: 0;
 }
 
   /* Links inside the dropdown */
@@ -105,13 +107,11 @@
 
 .tasks{
     margin: 10px auto;
-    width: 75%;
 }
 
 .task{
     border: 2px solid #00203FFF;
     margin-bottom: 5px;
-    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -129,6 +129,33 @@
 .task-title{
     width: 20%;
     flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+.task-title h3 {
+    font-size: 30px;
+}
+.task{
+    padding: 10px 20px;
+}
+.tasks{
+    width: 75%;
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.task-title h3 {
+    font-size: 18px;
+}
+.task{
+    padding:10px;
+}
+.tasks{
+    width: 90%;
+}
 }
 
 .task-title a{
