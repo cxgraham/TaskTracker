@@ -34,6 +34,35 @@ To make any changes to the task, such as changing the title, priority or adding 
 
 <img width="1440" alt="Screen Shot 2022-12-06 at 8 27 44 PM" src="https://user-images.githubusercontent.com/101434571/206073217-e2fb34c6-23df-413c-bcd6-bd6babb71d60.png">
 
+Once you are brought to the other page, the task's title and details are already preloaded into the form. 
+
+<img width="1440" alt="Screen Shot 2022-12-06 at 8 30 22 PM" src="https://user-images.githubusercontent.com/101434571/206073501-7c175373-fe32-41dc-b369-ab777964ccd1.png">
+
+Once the task is updated, the user is brought back to the homepage where the updated task and the new information. 
+
+<img width="1440" alt="Screen Shot 2022-12-06 at 8 32 51 PM" src="https://user-images.githubusercontent.com/101434571/206073697-820a8a42-1896-4a7c-8aa3-032ec910856e.png">
+
+If you wanted to filter your tasks to help prioritize your day, the filter button allows you to filter the tasks by priority (high to low) or date created (default).
+
+<img width="1440" alt="Screen Shot 2022-12-06 at 8 35 32 PM" src="https://user-images.githubusercontent.com/101434571/206073930-16b5bff9-6ccf-4bd6-b6bd-6db81779aaf3.png">
+
+Now all the tasks are filtered by priority, so you can know what needs to be accomplished first. 
+
+<img width="1440" alt="Screen Shot 2022-12-06 at 8 36 16 PM" src="https://user-images.githubusercontent.com/101434571/206074096-97d9fc6e-b99c-4a3e-a197-a98b812720b1.png">
+
+Once a task is finished, delete the task using the delete button and move on the next task.
+
+<img width="1440" alt="Screen Shot 2022-12-06 at 8 37 12 PM" src="https://user-images.githubusercontent.com/101434571/206074292-da4ddec9-8588-4b6c-aab9-b59154dc843d.png">
+<img width="1440" alt="Screen Shot 2022-12-06 at 8 38 16 PM" src="https://user-images.githubusercontent.com/101434571/206074328-8ccc4d1e-0bb1-4869-99db-f000e8e3a83d.png">
+
+The site is also responsive for mobile users and users with larger PC screens.
+
+<img width="872" alt="Screen Shot 2022-12-06 at 8 39 22 PM" src="https://user-images.githubusercontent.com/101434571/206074712-376117fa-7014-4bae-ae1f-5bed2d28c625.png">
+<img width="1440" alt="Screen Shot 2022-12-06 at 8 40 01 PM" src="https://user-images.githubusercontent.com/101434571/206074736-604f3258-c897-4e10-a6f7-51346ef73b72.png">
+
+
+
+
 
 
 
