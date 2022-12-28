@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'ToDoApp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'task_tracker',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'tasktrackerdb',
+        'HOST': 'tasktracker.chdbkjztsh8e.us-east-2.rds.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'cxgraham',
         'PASSWORD': 'Persia1897!',
     }
 }
